@@ -1,0 +1,14 @@
+<h2>Por país</h2>
+<hr>
+<div class="row">
+  <div class="col">
+    <!-- <shared-search-box placeholder="Buscar por país..." (onSearchTermEmmiter)="searchByCountry($event)"></shared-search-box> -->
+    <shared-search-box placeholder="Buscar por país..." (onSearchTermDebouncer)="searchByCountry($event)" [initialSearchTerm]="initialSearchTerm"></shared-search-box>
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col">
+    <ctr-table [countries]="searchResults"></ctr-table>
+    <shared-loading-spinner *ngIf="isLoading"></shared-loading-spinner>
+  </div>
+</div>

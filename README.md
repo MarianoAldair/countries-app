@@ -1,27 +1,19 @@
-# CountryApp
+# CountriesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+Este proyecto fue desarrollado con [Angular CLI](https://github.com/angular/angular-cli) en su versión 16.2.16. en febrero de 2025 (Córdoba, Argentina) con el fin de demostrar los conocimientos adquiridos al finalizar las primeras diez secciones de la formación profesional [Angular de cero a experto](https://www.udemy.com/course/angular-fernando-herrera/), dictada por [Fernando Herrera](https://fernando-herrera.com). Los temas y los conocimientos son acumulativos, por lo que le invito a explorar mis proyectos anteriores visitando mi [repositorio de Github](https://github.com/MarianoAldair) donde podrá visualizar los contenidos abarcados en las secciones anteriores. 
 
-## Development server
+## Temas involucrados
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A continuación, se listan los principales temas desarrollados en estas secciones:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- CountriesApp:
+  - Rutas e introducción al [RouterModule](https://angular.dev/api/router/RouterModule)
+  - Lazy Load de módulos
+  - Organización del file system
+  - Creación y reutilización de componentes especializados
+  - Solicitudes a [API de REST Countries](https://restcountries.com)
+  - Continuación de uso de operadores de [RxJs](https://rxjs.dev)
+  - Obtención y utilización de query params
+  - Interfaces y types
+  - [NgClass](https://angular.dev/api/common/NgClass)
+  - Leemos y grabamos en LocalStorage

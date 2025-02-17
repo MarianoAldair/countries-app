@@ -1,0 +1,14 @@
+<h2>Por capital</h2>
+<hr>
+<div class="row">
+  <div class="col">
+    <!-- <shared-search-box placeholder="Buscar por capital..." (onSearchTermEmmiter)="searchByCapital($event)" (onSearchTermDebouncer)="searchByCapital($event)"></shared-search-box> -->
+    <shared-search-box placeholder="Buscar por capital..." (onSearchTermDebouncer)="searchByCapital($event)" [initialSearchTerm]="initialSearchTerm"></shared-search-box>
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col">
+    <ctr-table [countries]="searchResults"></ctr-table>
+    <shared-loading-spinner *ngIf="isLoading"></shared-loading-spinner>
+  </div>
+</div>
